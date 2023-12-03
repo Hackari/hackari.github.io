@@ -1,0 +1,84 @@
+body {
+  background-color: #f0f0f0;
+  font-family: "Consolas", sans-serif;
+  margin: auto;
+  color: #000000;
+  height: auto;
+}
+
+top {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  display: block;
+  margin: auto;
+  box-shadow: #000000;
+  font-size: xx-large;
+  text-decoration: none;
+}
+
+nav {
+  margin-right: 1%;
+  font-size: xx-large;
+  display: inline;
+  float: right;
+}
+top a {
+  color: #000000;
+  text-decoration: none;
+  padding: 5px;
+}
+nav a {
+  color: #000000;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav a:hover {
+  background-color: #d1d1d1;
+}
+
+disp img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  object-position: 50% 70%;
+}
+
+content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+bubble {
+  background-color: #c0c0c0;
+  margin: 10px;
+  padding: 25px;
+  border-radius: 10px;
+  height: auto;
+}
+
+bubble h1 {
+  text-align: justify;
+  height: auto;
+}
+
+bubble iframe {
+  text-align: justify;
+  width: 90vw;
+  overflow: auto;
+  height: 200px;
+  border: none;
+}
+
+h1
+{
+  font-size: larger;
+}
+
+h2
+{
+  font-size: medium;
+}
