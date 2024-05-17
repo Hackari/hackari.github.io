@@ -8,34 +8,25 @@ const BlogNav = () => {
 	return (
 		<div>
 			<Navbar style={{
-				backgroundColor:"#A3C1D4"
+				backgroundColor:"#209999"
 			}}>
 				<img
-			src='https://media.geeksforgeeks.org/gfg-gg-logo.svg'
+			src='https://www.pokemoncenter.com/images/DAMRoot/Full-Size/10000/P9918_701E11087_02.jpg'
 			height='30'
 			alt=''
 			loading='lazy'
 			/>
-				<Navbar.Brand href="#home" style={{color:"white", marginLeft:"10px"}}>GeeksforGeeks</Navbar.Brand>
+				<Navbar.Brand href="#home" style={{color:"white", marginLeft:"10px"}}>Akari</Navbar.Brand>
 				<Navbar.Toggle />
 				<Navbar.Collapse id="basic-navbar-nav" className="d-flex justify-content-end">
 					<Nav>
 						<Nav.Link href="#home" style={{color:"white"}}>
-							JavaScript
+							Games
 						</Nav.Link>
 						<Nav.Link href="#about" style={{color:"white"}}>
-							Data Structure
-						</Nav.Link>
-						<Nav.Link href="#services" style={{color:"white"}}>
-							Algorithm
-						</Nav.Link>
-						<Nav.Link href="#contact" style={{color:"white"}}>
-							Computer Network
+							School
 						</Nav.Link>
 					</Nav>
-					<Form inline>
-						<FormControl type="text" placeholder="Search" className="ml-auto" />
-					</Form>
 				</Navbar.Collapse>
 			</Navbar>
 		</div>
