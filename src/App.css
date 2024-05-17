@@ -2,54 +2,34 @@
   text-align: center;
 }
 
-.shortcut {
-  background-color: rgba(0,0,0,0.4);
-  border: solid;
-  border-color: rgba(255,255,255,0.8);
-  border-radius: 10px;
+.hero {
+  background-color: #008080;
   color: white;
-  padding: 5px 5px;
+  padding: 100px 20px;
   text-align: center;
-  text-decoration: none;
+}
+.main-content {
+  background-color: white;
+  color: #333333;
+  padding: 50px 20px;
+}
+.main-content .service {
+  width: 30%;
   display: inline-block;
-  font-size: 20px;
-  margin: 5px 5px;
-  cursor: pointer;
-  object-fit: contain;
+  text-align: center;
+  padding: 20px;
 }
-
-.day {
-    display: block;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    align-items: center;
-    font-size: 150px;
-    color: #fff;
-    text-align: center;
-    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
-}
-
-.time {
-  display: block;
+.about {
+  background-color: #f2f2f2;
+  color: #333333;
+  padding: 50px 20px;
+  display: flex;
   align-items: center;
-  font-size: 60px;
-  color: #fff;
-  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
-  text-align: center;
-  margin: 5px 2px;
 }
-
-.button {
-  background-color: rgba(0,0,0,0.4);
-  border: solid;
-  border-color: rgba(255,255,255,0.8);
-  border-radius: 10px;
-  color: white;
-  padding: 5px 5px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 5px 5px;
-  cursor: pointer;
+.about img {
+  width: 50%;
+}
+.about .text {
+  width: 50%;
+  padding: 20px;
 }
