@@ -1,6 +1,6 @@
 body {
   height: 100vh;
-  background-color: rgb(64, 64, 64);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./images/WE/1.jpg");
   background-size: cover; /* <------ */
   background-repeat: no-repeat;
   background-position: center center;
